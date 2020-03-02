@@ -12,6 +12,10 @@
         text-align: right;
     }
 
+    .container ul {
+        list-style-type: none;
+    }
+
     .container h1 {
         letter-spacing: .3rem;
         border-bottom: 1px solid white;
