@@ -1,0 +1,52 @@
+@media screen and (min-width: 950px) {
+    section {
+        padding: 2rem 10rem;
+    }
+    
+    .section-one {
+        background-color: #8661FF;
+    }
+    
+    .container {
+        padding: 5rem 5rem;
+        text-align: right;
+    }
+
+    .container h1 {
+        letter-spacing: .3rem;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .section {
+        max-width: 100vw;
+    }
+    
+    .container {
+        margin: 0 3rem 0 3rem;
+    }
+    .section-two {
+        background-color: white;
+        color: #222;
+        margin: 1rem;
+        border-radius: 15px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        color: #222
+    }
+    .container li:nth-child(odd) {
+        background-color: #dedcf5;
+        padding: 10px
+    }
+}
+

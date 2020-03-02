@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: #222;
+    color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777;
+    transition: all;
+}
