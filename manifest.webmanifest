@@ -1,0 +1,17 @@
+{
+    "short_name": "Marco Chavez",
+    "name": "My Website",
+    "description": "More information about Marco Chavez",
+    "icons": [
+      {
+        "src": "/assets/me.jpg",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#dcc7ff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#dcc7ff"
+  }
