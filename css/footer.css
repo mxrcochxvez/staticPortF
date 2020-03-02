@@ -1,10 +1,32 @@
 /* ------------------------------- Desktop ------------------------------- */
 @media screen and (min-width: 950px) {
+    #contact-link a{
+        background-color: #c0a8f0;
+        color: white;
+        padding: 15px;
+    }
 
+    #contact-link a:hover {
+        color: black;
+        transform: skew(1);
+    }
 }
 
 
 /* -------------------------------- Mobile -------------------------------- */
 @media screen and (max-width: 950px) {
 
+    #footer {
+        min-height: 30vh;
+    }
+
+    #contact-link a{
+        background-color: #c0a8f0;
+        color: white;
+        padding: 15px;
+    }
+
+    #contact-link a:hover {
+        color: black;
+    }
 }
