@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Marco Chavez</title>
 </head>
+
 <body>
     <nav>
         <div class="nav-img">
@@ -27,46 +29,67 @@
             <div class="container">
                 <h1>My Name is Marco Chavez</h1>
                 <h3>Have you ever had a great website or app idea but couldn't figure out how to get it
-                off of the ground?
+                    off of the ground?
                 </h3>
-                <p>I help you make your ideas concrete.
-                </p>
+                <p>I help you make your ideas concrete.</p>
+                <div id="img">
+                    <img src="assets/me.jpeg" alt="Me">
+                </div>
             </div>
         </section>
         <section class="section-two">
             <div class="container">
                 <h1>I have the experience you need!</h1>
-                <p>I have been studying web development for the past five years, one of those years at a prestigious 
+                <p>I have been studying web development for the past five years, one of those years at a prestigious
                     coding bootcamp called Woz U. While attending Woz U, I learned how to develop applications with
-                    many popular frameworks including express, react, angular, and vue. 
+                    many popular frameworks including express, react, angular, and vue.
                 </p>
                 <h1 class="align_left" style="color: #695eff">My Projects</h1>
                 <ul>
                     <li>
                         <a href="https://github.com/mxrcochxvez/natours">
-                            Natours - An app to setup tours for a fake hiking company
+                            <strong>Natours</strong> - An app to setup tours for a fake hiking company
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/mxrcochxvez/Redux-Counter">
-                            Redux Counter - A counter that allows you to track your clicks
+                            <strong>Redux Counter</strong> - A counter that allows you to track your clicks
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/mxrcochxvez/webpack-react">
-                            Webpack/React - A Boilerplate I created for quick React development
+                            <strong>Webpack/React</strong> - A Boilerplate I created for quick React development
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/mxrcochxvez">
-                            If you would like to check out more, click this text to see my GitHub Profile
+                            <strong>If you would like to check out more, click this text to see my GitHub
+                                Profile</strong>
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
+    <section id="footer">
+        <div id="container"> 
+            <h3>Want to contact me? Visit the link below!</h3>
+            <div id="contact-link">
+                <a id="contact_link" href="https://zfrmz.com/OMshpKJrQZgZrTmNKtOK">Click Me!</a>
+            </div>
+        </div>
+    </section>
 
-    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script>
+        ScrollOut({
+            onShown: function (el) {
+                // use the web animation API
+                el.animate([{ opacity: 0 }, { opacity: 1 }], 1500);
+            },
+            targets: '.container'
+        });
+    </script>
 </body>
+
 </html>
